@@ -1,0 +1,234 @@
+* {margin: 0; padding: 0;};
+
+header, main, footer, {
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#logo, .ex1, .ex3, .final_Proj, .my_Github, #main_Content h2, .secondery_Content, .icons  {
+    color: #2d3950;
+}
+
+header, footer, #main_Content {
+    background-color: #f6f9f9;
+}
+
+#logo, #main_Menu, .cover, #call_To_Action, #main_Content, .c_Icon, .cpp_Icon h4, .html_Icon h4, .mail, .facebook, .linkedin, .copy {
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    height: 99px;
+}
+
+#logo {
+    background-image: url(../images/logo.png);
+    width: 197px;
+    height: 37px;
+    background-repeat: no-repeat;
+    margin-top: 31px;
+    margin-left: 252px;
+    padding-left: 50px;
+    padding-top: 3px;
+    font-size: 30px;
+}
+
+#main_Menu {
+    margin-left: 112px;
+    border-right-width: 5px;
+}
+
+#main_Menu a:hover {
+    color: #96a1b4;
+}
+
+.ex1, .ex3, .final_Proj {
+    border-right-style: solid;
+    border-right-color: #2d3950;
+    font-size: 30px;
+    padding-bottom: 6px;
+    padding-top: 1px;
+}
+
+.ex1 {
+    padding-right: 15px;
+}
+
+.ex3 {
+    padding-left: 27px;
+    padding-right: 11px;
+}
+
+.final_Proj {
+    padding-left: 28px;
+    padding-right: 21px;
+}
+
+.my_Github {
+    padding-left: 28px;
+    font-size: 30px;
+}
+
+.cover {
+    width: 1600px;
+    height: 800px;
+    background-image: url(../images/cover.jpg);
+    text-align: center;
+}
+
+#main_Title {
+    width: 665px;
+    font-size: 120px;
+    color: #ffffff;
+    margin-top: 242px;
+    margin-left: 450px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #15a4fa; 
+}
+
+.cover h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 43px;
+}
+
+#call_To_Action {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 68px;
+    border-style: solid;
+    border-color: #15a4fa;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+    padding-right: 17px;
+}
+
+.arrow_Icon {
+    margin-left: 790px;
+    margin-top: 179px;
+    display: block;
+}
+
+#main_Content {
+    width: 1600px;
+    height: 339px;
+    text-align: center;
+}
+
+#main_Content h2 {
+    font-size: 40px;
+    margin-top: 90px; 
+}
+
+#main_Content p {
+    font-size: 20px;
+    color: #999999;
+    margin-top: 41px;
+}
+
+.secondery_Content {
+    width: 1600px;
+    height: 637px;
+}
+
+.secondery_Content h2 {
+    margin-top: 86px;
+    text-align: center;
+    font-size: 41px;
+}
+
+.icons {
+    margin-left: 305px;
+    margin-top: 74px;
+    font-size: 30px;
+}
+
+.c_Icon, .cpp_Icon, .html_Icon, .css_Icon {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;  
+}
+
+.c_Icon {
+    background-image: url(../images/c.png);
+}
+
+.c_Icon h4 {
+    margin-top: 32px;
+    margin-left: 132px;
+}
+.cpp_Icon {
+    background-image: url(../images/cpp.png); 
+    margin-top: 20px;
+}
+
+.cpp_Icon h4 {
+    margin-top: 32px;
+    margin-left: 132px; 
+}
+
+.html_Icon h4 {
+    margin-top: 32px;
+    margin-left: 132px;
+}
+.html_Icon {
+    background-image: url(../images/html.png);
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    margin-top: 112px;
+}
+
+.footer_Icons {
+    margin-left: 245px;
+    padding-top: 25px;
+}
+
+.mail, .facebook, .linkedin {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+} 
+.facebook, .linkedin {
+    margin-left: 5px;
+}
+
+.mail {
+    background-image: url(../images/gmail.png);
+}
+
+.facebook {
+    background-image: url(../images/facebook.png);
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
+.copy {
+    vertical-align: 15px;
+    margin-left: 15px; 
+    font-size: 15px;
+    color: #999999;
+}
+.main_Content
